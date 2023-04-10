@@ -23,6 +23,12 @@ text-align: center;
     border: solid 10px black;
     border-radius: 10px;
 }
+.topnav .botaoIndex{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: solid 10px black;
+    border-radius: 10px;
+}
 .ColEsq{
     float: left;
     width: 50%;

@@ -5,6 +5,8 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="CSS/layoutOutros.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+   integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
    <title>CINECRIA</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
     
    <nav class="topnav">
        <a href="index.html">HOME</a>
-       <a href="EmCartaz.html">EM CARTAZ</a>
+       <a href="EmBreve.html">EM CARTAZ</a>
        <a href="EmBreve.html">EM BREVE</a>
        <a href="#">CONTATO</a>
        <a href="#">QUEM SOMOS?</a>
@@ -22,29 +24,77 @@
    </nav>
 
    <main class="principal">
-    <H1>EM CARTAZ</H1>
-    <div class="ColEsq">
-        <div class="card">
-            <h2>SHAZAM 2</h2>
-            <h5>Ação</h5>
-            <div class="images">
-                <img src="images/shazam2.webp" alt="Cartaz Filme Shazam 2">
+    <div class="container" style="margin-top: 150px; margin-bottom: 100px;">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
             </div>
-            <p>Sinopse do Filme: Deuses antigos chegam à Terra em busca da magia roubada deles há muito tempo. 
-                Shazam e seus aliados são lançados em uma batalha por seus superpoderes, suas vidas e o destino do mundo.</p>
- 
-        </div>
-        <div class="card">
-            <h2>AVATAR 2</h2>
-            <h5>Aventura</h5>
-            <div class="images">
-                <img src="images/Avatar-2.png" alt="Cartaz Filme Avatar 2">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/CREED III TESTE.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>CREED III</h5>
+                  <p>Depois de dominar os ringues, Adonis Creed tem prosperado com sua carreira e família. 
+                    Quando um amigo de infância e ex-prodígio do boxe, Damian, ressurge após uma longa sentença na prisão, o campeão fica ansioso para provar que merece sua chance. 
+                    O confronto entre ex-amigos é mais do que apenas uma luta. Para acertar as contas, Adonis deve colocar seu futuro em risco para enfrentar 
+                    Damian, um lutador que não tem nada a perder.
+                    <h5>Ação, Drama</h5>
+                    <h6>1h 56min</h6>
+                </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/shazam2.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>SHAZAM 2</h5>
+                  <p>Deuses antigos chegam à Terra em busca da magia roubada deles há muito tempo. 
+                    Shazam e seus aliados são lançados em uma batalha por seus superpoderes, suas vidas e o destino do mundo.</p>
+                    <h5>Ação / Aventura</h5>
+                    <h6>2h 10min</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/Avatar-2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>AVATAR 2</h3>
+                  <p>Após formar uma família, Jake Sully e Ney'tiri fazem de tudo para ficarem juntos. 
+                    No entanto, eles devem sair de casa e explorar as regiões de Pandora quando uma antiga ameaça ressurge, e Jake deve travar uma guerra difícil contra os humanos.</p>
+                    <h5> Ficção científica, Aventura, Fantasia, Ação</h5>
+                    <h6>3h 12min</h6>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/CARTAZ KIMETSU.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Demon Slayer - Para a Vila do Espadachim</h5>
+                  <p>Tanjiro Kamado é um bom rapaz que, após a sua família ter sido massacrada, decide tornar-se um 
+                    Caçador de Demónios na esperança de reverter a transformação da sua irmã em demónio.
+                     Em conjunto com os seus companheiros Zenitsu e Inosuke, e também com Tengen Uzui, um dos Caçadores de Demónios de escalão mais alto, 
+                    Tanjiro entra no Bairro do Entretenimento, onde enfrentam os formidáveis demónios da lua superior Daki e Gyutaro.</p>
+                    <h5>Animação, Ação, Fantasia, Aventura</h5>
+                    <h6>1h 50min</h6>
+                </div>
+              </div>
             </div>
-        </div>
-    </div>
-    <div class="ColDir">
-       
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </div>
    </main>
+   <FOOter>
+
+   </FOOter>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+crossorigin="anonymous"></script>
 </body>
 </html>
