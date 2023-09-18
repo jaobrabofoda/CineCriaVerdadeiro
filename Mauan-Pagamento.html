@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="CSS/layout.css">
+</head>
+<body class="destaque">
+    <header class="cabecalho">
+        <h1>Pagamento</h1>
+    </header>
+    </nav>
+    <main class="principal"> 
+
+        <div>
+          <form action="/process_payment" method="post">
+            <label for="product_name">Selecione o Filme:</label>
+            <select id="product_name" name="product_name">
+              <option value=" "> </option>
+              <option value=>CREED III</option>
+              <option value=>SHAZAM 2</option>
+              <option value=>AVATAR 2</option>
+              <option value=>Demon Slayer - Para a Vila do Espadachim</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="quantity">Pessoas:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+        </div>
+
+        <div>
+              <label for="product_name">Combos:</label>
+            <select id="product_name" name="product_name">
+                <option value=" "> </option>
+              <option value=>Combo: Pipoca Familia</option>
+              <option value=>Combo: Pipoca Grande</option>
+              <option value=>Combo: Pipoca Namorados</option>
+              </select>
+            </div>
+
+              <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+            <div>
+              <label for="product_name">Selecione uma Bebida:</label>
+            <select id="product_name" name="product_name">
+                <option value=" "> </option>
+              <option value=>Refrigerante: Coca Cola</option>
+              <option value=>Refrigerante: Coca Lata</option>
+              <option value=>Refrigerante: Fanta lata</option>
+              <option value=>Refrigerante: Guaraná</option>
+              <option value=>Refrigerante: Guaraná Lata</option>
+              <option value=>Refrigerante: tuchaua</option>
+              </select>
+            </div>
+
+            <label for="quantity">Quantidade:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+
+            <div>
+            <label for="product_price">Preço Total:</label>
+            <input type="text" id="product_price" name="product_price" readonly>
+            <input type="submit" value="Pagar">
+        </div>
+        
+            <label for="product_price">Gostaria de nos avaliar?</label>
+            <input type="text" id="product_price" name="product_price" readonly>
+          </form>
+
+          </form>
+          
+</div>
+</div>
+
+
+</main>
+</body>
